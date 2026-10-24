@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mitesh Rana's personal portfolio showcasing web development skills, projects, education, and contact information.">
+    <title>Mitesh Rana | Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a class="brand" href="#home" aria-label="Mitesh Rana home"><span class="brand-mark">M</span> mitesh<span
+                    class="accent">.</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu"
+                aria-expanded="false">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a
+                    href="#education">Education</a><a href="#contact" class="nav-cta">Contact ↗</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section container" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> OPEN TO INTERNSHIPS & OPPORTUNITIES</p>
+                <h1>Hi, I'm <span class="gradient-text">Mitesh Rana.</span><br>I build for the web.</h1>
+                <p class="hero-description">A Computer Science and Engineering student who enjoys turning ideas into
+                    responsive, useful web experiences with clean code and thoughtful design.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+                    <a class="button button-secondary" href="assets/resume/MITESH_RANA_RESUME.pdf" download>Download
+                        resume ↓</a>
+                </div>
+                <div class="hero-socials"><a href="https://github.com/mitesh992" target="_blank"
+                        rel="noopener noreferrer">GitHub ↗</a><a href="mailto:d26amtics0001@gmail.com">Email
+                        ↗</a><span>Surat, Gujarat, India</span></div>
+            </div>
+            <div class="hero-visual" aria-label="Decorative developer illustration">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="profile-card">
+                    <div class="profile-top"><span></span><span></span><span></span><small>about-me.js</small></div>
+                    <div class="code-lines">
+                        <p><span class="code-purple">const</span> developer = {</p>
+                        <p class="indent"><span class="code-blue">name</span>: <span class="code-green">'Mitesh
+                                Rana'</span>,</p>
+                        <p class="indent"><span class="code-blue">focus</span>: <span class="code-green">'Web
+                                Development'</span>,</p>
+                        <p class="indent"><span class="code-blue">learning</span>: <span class="code-green">'Every
+                                day'</span>,</p>
+                        <p class="indent"><span class="code-blue">available</span>: <span
+                                class="code-orange">true</span></p>
+                        <p>};</p>
+                        <div class="code-comment">// Building ideas into reality ✦</div>
+                    </div>
+                    <div class="floating-badge badge-html">&lt;/&gt; HTML · CSS · JS</div>
+                    <div class="floating-badge badge-git">⌘ Git & GitHub</div>
+                </div>
+            </div>
+            <a class="scroll-hint" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+        </section>
+
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+                <h2>Curious mind.<br><span class="muted">Builder's mindset.</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-copy">
+                    <p>I'm an aspiring web developer and Computer Science and Engineering student at Asha M. Tarsadia
+                        Institute of Computer Science and Technology (AMTICS). I have a foundation in front-end
+                        development, databases, and version control.</p>
+                    <p>I enjoy creating practical projects, learning new technologies, and improving my problem-solving
+                        skills one project at a time. I'm currently looking for opportunities to learn, collaborate, and
+                        grow as a developer.</p><a class="text-link" href="assets/resume/MITESH_RANA_RESUME.pdf"
+                        target="_blank" rel="noopener">View my résumé <span>↗</span></a>
+                </div>
+                <div class="about-facts">
+                    <div class="fact"><span class="fact-icon">⌘</span>
+                        <div><strong>Web Development</strong>
+                            <p>Responsive websites and user-friendly interfaces</p>
+                        </div>
+                    </div>
+                    <div class="fact"><span class="fact-icon">▤</span>
+                        <div><strong>Database Basics</strong>
+                            <p>MySQL and Firebase-backed projects</p>
+                        </div>
+                    </div>
+                    <div class="fact"><span class="fact-icon">↗</span>
+                        <div><strong>Always Learning</strong>
+                            <p>Building skills through hands-on practice</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">02 / WHAT I WORK WITH</p>
+                    <h2>Skills & <span class="muted">tools.</span></h2>
+                    <p class="section-intro">Technologies I've used in coursework and personal projects.</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon">⌘</div>
+                        <h3>Frontend</h3>
+                        <p>Building responsive, accessible interfaces.</p>
+                        <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon">▤</div>
+                        <h3>Backend & Data</h3>
+                        <p>Connecting interfaces with stored data.</p>
+                        <div class="tags"><span>PHP (basic)</span><span>MySQL</span><span>Firebase</span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon">⌥</div>
+                        <h3>Tools & Workflow</h3>
+                        <p>Version control and publishing projects.</p>
+                        <div class="tags"><span>Git</span><span>GitHub</span><span>GitHub Pages</span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon">✳</div>
+                        <h3>Professional Skills</h3>
+                        <p>Habits I bring to learning and teamwork.</p>
+                        <div class="tags"><span>Problem-solving</span><span>Attention to
+                                detail</span><span>Adaptability</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="projects">
+            <div class="section-heading heading-row">
+                <div>
+                    <p class="eyebrow">03 / SELECTED WORK</p>
+                    <h2>Things I've <span class="muted">built.</span></h2>
+                </div><span class="project-count">03 PROJECTS</span>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-preview preview-garba"><span class="preview-label">EVENT BOOKING</span>
+                        <div class="preview-symbol">✦</div>
+                        <div class="preview-title">Rangtaali<br>Garba Pass</div>
+                        <div class="preview-bottom">REGISTER · CELEBRATE · DANCE</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta"><span>01 / WEB APP</span><span>2026</span></div>
+                        <h3>Garba Pass Booking Website</h3>
+                        <p>A web application for booking Garba event passes, with Firebase used to store and retrieve
+                            booking information.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Firebase</span>
+                        </div><a class="text-link" href="https://github.com/mitesh992" target="_blank"
+                            rel="noopener noreferrer">Explore on GitHub <span>↗</span></a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-preview preview-bus"><span class="preview-label">TRAVEL & ROUTES</span>
+                        <div class="bus-route"><span class="route-dot"></span><span class="route-line"></span><span
+                                class="route-dot"></span></div>
+                        <div class="preview-title">Bus Inquiry<br>System</div>
+                        <div class="preview-bottom">ROUTES · SCHEDULES · INFORMATION</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta"><span>02 / WEB APP</span><span>2026</span></div>
+                        <h3>Bus Inquiry System</h3>
+                        <p>A web-based inquiry system for checking bus routes and schedules, using PHP to connect the
+                            interface to a MySQL database.</p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+                        </div><a class="text-link" href="https://github.com/mitesh992" target="_blank"
+                            rel="noopener noreferrer">Explore on GitHub <span>↗</span></a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-preview preview-portfolio"><span class="preview-label">PERSONAL BRAND</span>
+                        <div class="preview-symbol portfolio-symbol">{ }</div>
+                        <div class="preview-title">Personal<br>Portfolio</div>
+                        <div class="preview-bottom">DESIGN · CODE · DEPLOY</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta"><span>03 / WEBSITE</span><span>2026</span></div>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A responsive portfolio designed to present my skills and projects, with source control using
+                            Git and deployment through GitHub Pages.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Git</span></div>
+                        <a class="text-link" href="https://github.com/mitesh992" target="_blank"
+                            rel="noopener noreferrer">Explore on GitHub <span>↗</span></a>
+                    </div>
+                </article>
+            </div>
+            <p class="note">Note: The project links currently open your GitHub profile. Replace them with each project's
+                repository URL when those repositories are available.</p>
+        </section>
+
+        <section class="section section-alt" id="education">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">04 / THE LEARNING JOURNEY</p>
+                    <h2>Education & <span class="muted">growth.</span></h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item"><span class="timeline-dot"></span>
+                        <div class="timeline-date">CURRENTLY PURSUING</div>
+                        <h3>Bachelor of Technology — Computer Science and Engineering</h3>
+                        <p class="timeline-place">Asha M. Tarsadia Institute of Computer Science and Technology (AMTICS)
+                        </p>
+                        <p>Building knowledge in computing and software development.</p>
+                    </div>
+                    <div class="timeline-item"><span class="timeline-dot"></span>
+                        <div class="timeline-date">GRADUATED 2026</div>
+                        <h3>Diploma</h3>
+                        <p class="timeline-place">Bhagwan Mahavir Polytechnic, Surat, Gujarat</p>
+                        <p>Developed a foundation in information technology and practical programming projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container contact-section" id="contact">
+            <div class="contact-panel">
+                <div>
+                    <p class="eyebrow">05 / LET'S CONNECT</p>
+                    <h2>Have a project<br>in <span class="gradient-text">mind?</span></h2>
+                    <p class="contact-copy">I'm open to internships, entry-level opportunities, and conversations about
+                        web development. Feel free to reach out.</p>
+                </div>
+                <div class="contact-links"><a href="mailto:d26amtics0001@gmail.com"><span>✉</span>
+                        <div><small>EMAIL ME</small><strong>d26amtics0001@gmail.com</strong></div><b>↗</b>
+                    </a><a href="https://github.com/mitesh992" target="_blank" rel="noopener noreferrer"><span>⌘</span>
+                        <div><small>GITHUB</small><strong>github.com/mitesh992</strong></div><b>↗</b>
+                    </a></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">M</span> mitesh<span
+                    class="accent">.</span></a>
+            <p>Designed & built by Mitesh Rana · 2026</p>
+            <div><a href="mailto:d26amtics0001@gmail.com">Email</a><a href="https://github.com/mitesh992"
+                    target="_blank" rel="noopener noreferrer">GitHub</a></div>
+        </div>
+    </footer>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+
+</html>
